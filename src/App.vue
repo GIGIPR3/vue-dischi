@@ -4,22 +4,26 @@
 
     <NavBar />
 
+    <DischiArea />
 
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import DischiArea from './components/DischiArea.vue'
+/* import axios from 'axios'; */
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    DischiArea
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 * {
   font-family: 'Roboto Condensed', sans-serif;
