@@ -5,7 +5,7 @@
         <div class="card">
 
             <div class="h-50">
-                <img :src="{{response.poster}}" alt="" key="index" >
+                <!-- <img :src="(response.poster)" alt="" key="index" > -->
             </div>
             
 
